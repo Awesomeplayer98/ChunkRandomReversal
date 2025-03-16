@@ -27,7 +27,7 @@ public class ChunkRandomReverser {
             case 1:
                 return results.get(0).toCpos();
             default:
-                throw new IndexOutOfBoundsException("Bounds too large to indentify a unique seed. If this is actually a problem for some horrifying future version of minecraft open a github issue but as of right now this should never run so I am legally allowed to write a long and funny error message instead of something more helpful.");
+                throw new IndexOutOfBoundsException("Bounds too large to identify a unique seed. If this is actually a problem for some horrifying future version of minecraft open a github issue but as of right now this should never run so I am legally allowed to write a long and funny error message instead of something more helpful.");
         }
     }
 
